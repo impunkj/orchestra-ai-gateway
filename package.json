@@ -1,0 +1,27 @@
+{
+  "name": "core-ai-gateway",
+  "version": "1.0.0",
+  "description": "Enterprise-grade high-concurrency AI proxy layer",
+  "main": "dist/app.js",
+  "type": "commonjs",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/app.js",
+    "dev": "tsx watch src/app.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "openai": "^4.55.0",
+    "redis": "^4.7.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.19.41",
+    "tsx": "^4.15.7",
+    "typescript": "^5.5.2"
+  }
+}
